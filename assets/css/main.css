@@ -37,6 +37,9 @@ ol, ul {
 	list-style: none;
 }
 
+#header {
+	text-align: center;
+}
 
 blockquote, q {
 	quotes: none;
@@ -3267,6 +3270,8 @@ input, select, textarea {
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
+			text-align: center;
+			
 		}
 
 			#header.alt.style1 .logo strong {
