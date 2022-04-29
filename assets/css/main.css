@@ -7,6 +7,38 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#footer {
+	display: flex;
+	
+
+}
+#figures{
+	display: flex;
+	justify-content: center;
+	
+}
+#footer #git {
+	grid-column: 2;
+}
+#footer:nth-child(2) {
+	grid-column: 2;
+}
+/*div .inner {
+	display: flex;
+	justify-content: center;
+
+}*/
+.split{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+	
+}
+#contact .split{
+	display: flex;
+	justify-content: center;
+
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3143,15 +3175,9 @@ input, select, textarea {
 			line-height: inherit;
 			padding: 0 1.5em;
 		}
-		    div #ban{
-				background-color: black;
-				box-shadow: 0 3px 10px red;
-				color:lime;
-			}
+		    
 
-			div #ban h1{
-				color:lime;
-			}
+			
 
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3966,3 +3992,5 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	
